@@ -1,0 +1,145 @@
+/* ==UserStyle==
+@name AwardFares - Dark
+@version 2019.9.30
+@description Dark mode for AwardFares.com
+@author macfeaster
+@namespace sektor.io
+@homepageURL https://github.com/macfeaster/awardfares-dark
+@supportURL https://github.com/macfeaster/awardfares-dark/issues/
+@updateURL https://raw.githubusercontent.com/macfeaster/awardfares-dark/master/awardfares.user.css
+@license CC-BY-NC-SA-4.0
+==/UserStyle== */
+
+@-moz-document url-prefix("https://awardfares.com/") {
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #555;
+}
+
+body {
+    background: #151515;
+    color: #fff;
+}
+
+a:hover {
+    color: #bccfe1;
+}
+
+header {
+    background: #333 !important;
+    border-bottom: 1px solid #444 !important;
+}
+
+header .sub {
+    background: #444;
+}
+
+.picker {
+    background: #444;
+    border: 1px solid #555;
+    color: #ccc;
+}
+
+.picker:hover {
+    background: #555;
+    border: 1px solid #666;
+    color: #ddd;
+}
+
+.search-page .search-timeline .nav {
+    background: #444;
+}
+
+.search-page .search-map {
+    filter: brightness(0.4);
+}
+
+.flights-component .list, .search-page .search-timeline, .search-page .search-map, .search-page .search-results .status {
+    box-shadow: 0 1px 4px #000;
+    background: #222;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, .7);
+}
+
+.overlay .ring {
+    filter: invert(1);
+    opacity: 0.7;
+}
+
+.flight-component {
+    border-top: 1px solid #666;
+}
+
+.flights-component .result.expanded {
+    background: #333;
+}
+
+.flights-component .layover {
+    background: #444;
+    border: 1px solid #666;
+}
+
+th, td, .dropdown .dropdown-filter {
+    border-bottom: 1px solid #555;
+}
+
+.flights-component .details + .result, .flights-component .result + .result, body.app footer, .alerts-component .item + .item, .trips-page .list, .trips-page .list .item + .item {
+    border-top: 1px solid #666;
+}
+
+input, select {
+    background: #333 !important;
+    color: #aaa !important;
+}
+
+select {
+    border: 1px solid #444 !important;
+}
+
+.search-page .search-fields .field, .dropdown .dropdown-list {
+    border: 1px solid #555;
+    background: #333;
+}
+
+.picker.outline, .alert-component .input, .date-picker .calendar-btn {
+    border: 1px solid #444;
+}
+
+.dropdown .dropdown-item:hover, .date-picker .calendar-btn.enabled:hover, .date-picker .calendar-btn.today {
+    background: #555;
+}
+
+.dropdown .only {
+    background: transparent !important;
+    color: #bccfe1;
+}
+
+body.app header .item.brand {
+    filter: grayscale(1) brightness(3);
+}
+
+.pax-picker a {
+    filter: invert(1) grayscale(1);
+}
+
+.alert-component .modal {
+    background: #333;
+}
+
+.billing-page .box {
+    border: 2px solid #333;
+}
+
+}
