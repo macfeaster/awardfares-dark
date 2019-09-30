@@ -79,7 +79,7 @@ header .sub {
 }
 
 .flight-component {
-    border-top: 1px solid #666;
+    border-top: 1px solid #444;
 }
 
 .flights-component .result.expanded {
@@ -96,7 +96,7 @@ th, td, .dropdown .dropdown-filter {
 }
 
 .flights-component .details + .result, .flights-component .result + .result, body.app footer, .alerts-component .item + .item, .trips-page .list, .trips-page .list .item + .item {
-    border-top: 1px solid #666;
+    border-top: 1px solid #444;
 }
 
 input, select {
