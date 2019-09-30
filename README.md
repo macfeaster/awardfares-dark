@@ -1,5 +1,5 @@
-# awardfares-dark
-Dark userstyle for AwardFares.com. Doesn't aim to restyle the site in any way, just make it night compatible.
+# AwardFares Dark
+Dark userstyle for AwardFares.com. Doesn't aim to restyle the site in any way, just make it night compatible. :airplane: :new_moon_with_face:
 
 ## Installation
 
