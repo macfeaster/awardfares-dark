@@ -78,11 +78,11 @@ header .sub {
     opacity: 0.7;
 }
 
-.flight-component {
+.flight-component, .flight-details-component {
     border-top: 1px solid #444;
 }
 
-.flights-component .result.expanded {
+.flights-component .result.expanded, .flight-list-component .result.expanded {
     background: #333;
 }
 
@@ -95,7 +95,7 @@ th, td, .dropdown .dropdown-filter {
     border-bottom: 1px solid #555;
 }
 
-.flights-component .details + .result, .flights-component .result + .result, body.app footer, .alerts-component .item + .item, .trips-page .list, .trips-page .list .item + .item {
+.flights-component .details + .result, .flights-component .result + .result, body.app footer, .alerts-component .item + .item, .trips-page .list, .trips-page .list .item + .item, .flight-list-component .result + .result {
     border-top: 1px solid #444;
 }
 
@@ -117,7 +117,7 @@ select {
     border: 1px solid #444;
 }
 
-.dropdown .dropdown-item:hover, .date-picker .calendar-btn.enabled:hover, .date-picker .calendar-btn.today {
+.dropdown .dropdown-item:hover, .date-picker .calendar-btn.enabled:hover, .date-picker .calendar-btn.today, .flight-details-component .segment-layover {
     background: #555;
 }
 
@@ -138,7 +138,7 @@ body.app header .item.brand {
     background: #333;
 }
 
-.billing-page .box {
+.billing-page .box, .flight-details-component .segment-layover {
     border: 2px solid #333;
 }
 
