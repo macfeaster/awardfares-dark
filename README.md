@@ -14,4 +14,5 @@ To use this style, install [Stylus](https://add0n.com/stylus.html) and then clic
 
 ### Changelog
 
+20210217 - Minor fixes for AF UI updates
 20190930 - Initial version
